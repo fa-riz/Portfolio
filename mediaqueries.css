@@ -95,4 +95,7 @@
   .text-container {
     text-align: justify;
   }
+  .link {
+    margin-left: 0.5rem;
+  }
 }
