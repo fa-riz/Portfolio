@@ -58,7 +58,7 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .ab0ut-containers,
+  .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
@@ -95,7 +95,8 @@
   .text-container {
     text-align: justify;
   }
-  .link {
-    margin-left: 0.5rem;
-  }
+ 
+.contact-info-container {
+  gap: 10px
+}
 }
