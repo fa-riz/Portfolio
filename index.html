@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Muhammed Fariz P A</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Muhammed Fariz P A</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="assets/farizprofile.png" alt="profile_picture" />
+      </div>
+      <div class="section_text">
+        <p class="section__text__p1">Helloo, I'm</p>
+        <h1 class="title">Muhammed Fariz</h1>
+        <p class="section_text_p2">Frontend Devoloper<br />AI/ML Devoloper</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/ResumeFariz.pdf')"
+          >
+            Resume
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My linkdn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/muhammed-fariz-p-a-51b22b23b/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My github"
+            class="icon"
+            onclick="location.href='https://github.com/fa-riz'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <p class="title">About Me</p>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/farizabout.png"
+            alt="profile picture"
+            class="about-pic"
+          />
+        </div>
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container1">
+              <img
+                src="./assets/experience.png"
+                alt="experienxce icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher</p>
+            </div>
+            <div class="details-container2">
+              <img
+                src="./assets/education.png"
+                alt="experienxce icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                B.Tech | Rajagiri School of Enginnering and Technology<br />Computer
+                Science and Enginnering
+              </p>
+              <br />
+              <p>Higher Secondary | SNDP HSS Aluva<br />Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Aspiring front-end developer and recent graduate with a keen
+              interest in artificial intelligence. Experienced in developing
+              engaging user interfaces and applications while integrating AI
+              technologies. Skilled in leveraging modern frameworks and
+              libraries to create responsive web applications and AI-driven
+              solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>React.js</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Databases and Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Oracle</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="'experience"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="project">
+      <p class="section__text__p1">Browse My recent</p>
+      <h1 class="title">Frontend Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">
+                Food Recipe App
+              </h2>
+              <p>
+                A React-based application that leverages the Spoonacular API to
+                search and display recipes with detailed instructions and
+                ingredients. Designed with a responsive, user-friendly interface
+                using CSS for seamless browsing.
+              </p>
+            </div>
+
+            <div class="btn-container pro">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fa-riz/FoodRecipeAPP'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">To-Do List App</h2>
+              <p>
+                A React-based task manager with features to add, delete, and
+                sort tasks, showcasing dynamic updates and a clean UI.
+              </p>
+            </div>
+            <div class="btn-container pro">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fa-riz/TodoListApp'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project2">
+      <p class="section__text__p1">Browse My recent</p>
+      <h1 class="title">AI/ML Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">
+                Smart Policing ML
+              </h2>
+              <p>
+                An AI-powered system using YOLOv7 for object detection (e.g.,
+                weapons) and Librosa for sound analysis (e.g., screams,
+                gunfire). It integrates Firebase for data storage and Twilio API
+                for real-time emergency alerts, enhancing safety and response
+                efficiency.
+              </p>
+            </div>
+
+            <div class="btn-container pro">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fa-riz/SmartPolice-ML'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2 class="experience-sub-title project-title">
+                Hand Gesture Automation for Nurses
+              </h2>
+              <p>
+                A gesture-to-voice app using CNNs and MediaPipe for hand gesture
+                recognition and TTS for voice output. Integrated with Twilio to
+                send WhatsApp alerts, aiding non-verbal patients in
+                communicating with nurses effectively.
+              </p>
+            </div>
+            <div class="btn-container pro">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/fa-riz/Gesture-Application-for-home-nursess'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="email"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:muhammedfarizpa@gmail.com"
+              >muhammedfarizpa@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkedin"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com">linkedin</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
