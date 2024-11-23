@@ -96,7 +96,7 @@
     text-align: justify;
   }
  
-.contact-info-container p {
-  gap: 10px
+.contact-info-container img {
+  margin-left: 10px;
 }
 }
